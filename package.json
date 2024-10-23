@@ -1,7 +1,7 @@
 {
   "name": "novabook-tech-task",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "app.ts",
   "scripts": {
     "build": "tsc",
     "start": "node src/app.ts",
