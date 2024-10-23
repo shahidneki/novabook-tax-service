@@ -42,11 +42,15 @@ Ensure you install the following for Typescript support and testing
 - **TypeScript**: TypeScript compiler.
 - **ts-node**: Typescript execution engine.
 - **Jest**: Testing framework.
+- **Express**: Node.js web application framework.
+- **body-parser**: Middleware for Node.js that parses incoming requests.
+- **cors**: Middleware for Node.js that enables CORS with various options.
+- **dotenv**: Zero-dependency module that loads environment variables from a .env file into process.env.
 
 You can install these globally or as development dependencies. To install as development dependencies, run:
 
 ```bash
-  npm install --save-dev jest ts-node typescript @types/jest
+  npm install express body-parser cors dotenv jest ts-jest @types/jest @types/express
 ```
 
 ### Installation
