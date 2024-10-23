@@ -154,7 +154,7 @@ Basic logging is implemented to track incoming requests, providing visibility in
 You can run tests using a testing framework like Jest. The test suite is located in the `tests` directory and can be executed using the following command:
 
 ```bash
-npx jest
+npm test
 ```
 
 ### Assumptions
